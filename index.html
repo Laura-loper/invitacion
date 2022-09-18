@@ -9,23 +9,30 @@
 </head>
   <body >
     <div class="container-fluid">
-        <div class="row">
+        <div class="row" >
+          <div class="col">
+          <video width="310rem" autoplay loop controls>
+            <source src="img/pro.webm" type="video/webm" >
+          </video>
+        </div>
+        </div>
+          <div class="row">
             <div class="col">
-                <div class="card" style="width: 20rem;">
-                    <img src="img/Imagen3.gif" class="card-img-top" alt="...">
-                    <div class="card-body">
               
-                        En mi casa .... 
-                        No faltes que nos vamos a divertir muchisimo
-                      </p>
-                      <p class="card-text">No te olvides que necesito tu confirmacion
-                      </p>
+                <div class="card" style="width: 20rem;">
+                    <!--<img src="img/Imagen3.gif" class="card-img-top" alt="...">-->
+                    <img src="img/Imagen3.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
                       
+                      
+                      <h4 class="card-text" style="text-align: center;">No te olvides que necesito tu confirmacion
+                      </h4>
+                      <h1 style="text-align: center; color:#CD5C5C;"">¿Cuanto falta?</h1>      
+                      <h5 id="demo" style="text-align: center; color:blue;"></h5>
+                      <p style="text-align: center;"><a href="confirmar.html" class="btn btn-primary">Confirmar asistencia</a>
+                      </p>
                     </div>
-                  </div>
-                    <h1>Cuanto falta?</h1>      
-                    <p id="demo"></p>
-                    <a href="confirmar.html" class="btn btn-primary">Confirmar asistencia</a>
+                  </div>    
                 <script>
                   var deadline = new Date("Sep 20, 2022 00:00:00").getTime();
                     var x = setInterval(function() {
@@ -43,6 +50,7 @@
                         }
                     }, 1000);
                 </script>
+              
             </div>
         </div>
     </div>
